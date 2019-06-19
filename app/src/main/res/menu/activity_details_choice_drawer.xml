@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_business_black_24dp"
+
+            android:title="@string/business_news" />
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/ic_settings_power_black_24dp"
+            android:title="@string/tech_news" />
+        <item
+            android:id="@+id/nav_bitcoin"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/bitcoin_news" />
+        <item
+            android:id="@+id/nav_fav"
+            android:title="@string/favourites"
+            android:icon="@drawable/ic_favorite_black_24dp"/>
+
+
+    </group>
+
+    <item android:title="@string/info">
+        <menu>
+            <item
+                android:id="@+id/nav_myinfo"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/developer_info" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="@string/feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/signout"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>
